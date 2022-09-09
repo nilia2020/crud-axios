@@ -1,0 +1,41 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container table {
+    border-collapse:collapse; 
+    width: 100%;
+    margin-inline: 0.2rem;;
+}
+
+.table-container td, th {
+    border: 1px solid green;
+    padding: 0.5rem;
+    width: 18%;
+    line-height: 2rem;
+}
+
+.table-container button {
+    color: yellow; 
+    background-color: black;
+    margin-inline: 5%;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+}
+
+.table-container button:hover {
+    color: black; 
+    background-color: yellow;
+    font-weight: 700;
+    padding:0.1rem;
+    cursor: pointer;
+    
+}
+.table-container thead {
+    font-size: 1.1rem;
+    font-weight:500;
+}
